@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santhoshi Makeover | Bridal Makeup Artist in Madurai</title>
+    <meta name="description" content="Discover bridal makeup, HD makeup, glass skin makeup, airbrush makeup, hairstyling, saree draping, and mehndi services at Santhoshi Makeover in Madurai. 7 years of experience. Book your appointment via WhatsApp.">
+    <meta name="keywords" content="Bridal Makeup Madurai, Santhoshi Makeover, HD Makeup Madurai, Saree Draping Madurai, Bridal Mehndi, Hairstyling Madurai">
+    <meta name="author" content="Santhoshi Makeover">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Santhoshi Makeover | Luxury Bridal Makeup Artist in Madurai">
+    <meta property="og:description" content="Flawless bridal makeovers, HD makeup, hairstyles, saree draping, and mehndi services in Madurai with 7 years of expertise.">
+    <meta property="og:image" content="assets/hero/hero-1.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        burgundy: '#641E32',
+                        rosegold: '#B76E79',
+                        champagne: '#D4AF37',
+                        blush: '#F7E7E8',
+                        ivory: '#FFF9F4',
+                        darktext: '#302128',
+                        subtext: '#75656B'
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* CSS Reset & Variables */
+        :root {
+            --burgundy: #641E32;
+            --rosegold: #B76E79;
+            --champagne: #D4AF37;
+            --blush: #F7E7E8;
+            --ivory: #FFF9F4;
+            --darktext: #302128;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--ivory);
+            color: var(--darktext);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Image aspect ratio guard for gallery */
+        .aspect-portrait {
+            aspect-ratio: 1 / 1.7;
+        }
+
+        /* Hero Background Slideshow */
+        .hero-slide {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            transition: opacity 1.2s ease-in-out, transform 4s ease-out;
+            transform: scale(1);
+        }
+
+        .hero-slide.active {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        /* Fallback gradient styling when local images fail */
+        .img-fallback {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Focus rings for accessibility */
+        a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+            outline: 2px solid #D4AF37;
+            outline-offset: 2px;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FFF9F4;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #B76E79;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #641E32;
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            .hero-slide {
+                transition: none !important;
+                transform: none !important;
+            }
+            .scroll-smooth {
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+
+    <!-- Schema.org BeautySalon Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "Santhoshi Makeover",
+      "image": "assets/logo.png",
+      "@id": "https://santhoshimakeover.com",
+      "url": "https://santhoshimakeover.com",
+      "telephone": "+918925366616",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5 Street, Krishnapuram Colony",
+        "addressLocality": "Madurai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "625002",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 9.9252,
+        "longitude": 78.1198
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "10:00",
+        "closes": "21:00"
+      },
+      "description": "Professional bridal makeup artist in Madurai offering HD makeup, glass skin makeup, airbrush makeup, hairstyles, saree draping, and mehndi services."
+    }
+    </script>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+<!-- Header & Navigation -->
+<header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-burgundy/90 backdrop-blur-md text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+            
+            <!-- Logo & Brand Name -->
+            <a href="#home" class="flex items-center gap-3 group focus:outline-none">
+                <div class="w-12 h-12 rounded-full border-2 border-champagne overflow-hidden flex items-center justify-center bg-burgundy text-champagne">
+                    <img src="/asstes/logo.jpeg" alt="Santhoshi Makeover Logo" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <i class="fa-solid fa-crown text-lg hidden" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <span class="font-serif text-xl sm:text-2xl tracking-wide font-bold block text-ivory group-hover:text-champagne transition-colors">Santhoshi</span>
+                    <span class="text-xs uppercase tracking-widest text-champagne block font-sans">Makeover</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-6 lg:space-x-8 font-medium text-sm">
+                <a href="#home" class="nav-link hover:text-champagne transition-colors py-1">Home</a>
+                <a href="#menu" class="nav-link hover:text-champagne transition-colors py-1">Services</a>
+                <a href="#offers" class="nav-link hover:text-champagne transition-colors py-1">Offers</a>
+                <a href="#gallery" class="nav-link hover:text-champagne transition-colors py-1">Gallery</a>
+                <a href="#about" class="nav-link hover:text-champagne transition-colors py-1">About Us</a>
+                <a href="#reviews" class="nav-link hover:text-champagne transition-colors py-1">Reviews</a>
+                <a href="#contact" class="nav-link hover:text-champagne transition-colors py-1">Contact</a>
+            </nav>
+
+            <!-- Book Now Right CTA -->
+            <div class="hidden md:flex items-center gap-4">
+                <a href="#booking" class="bg-champagne hover:bg-yellow-500 text-burgundy font-semibold px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5 text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                    <span>Book Now</span>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-btn" type="button" class="p-2 rounded-md text-ivory hover:text-champagne hover:bg-burgundy/50 focus:outline-none" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <i class="fa-solid fa-bars text-2xl" id="menu-icon-open"></i>
+                    <i class="fa-solid fa-xmark text-2xl hidden" id="menu-icon-close"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-burgundy/95 border-b border-rosegold/20 px-4 pt-2 pb-6 space-y-3 font-medium">
+        <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-md hover:bg-rosegold/20 hover:text-champagne">Home</a>
+        <a href="#menu" class="mobile-nav-link block px-3 py-2 rounded-md hover:bg-rosegold/20 hover:text-champagne">Services Menu</a>
+        <a href="#offers" class="mobile-nav-link block px-3 py-2 rounded-md hover:bg-rosegold/20 hover:text-champagne">Special Offers</a>
+        <a href="#gallery" class="mobile-nav-link block px-3 py-2 rounded-md hover:bg-rosegold/20 hover:text-champagne">Portfolio Gallery</a>
+        <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md hover:bg-rosegold/20 hover:text-champagne">About Santhoshi</a>
+        <a href="#reviews" class="mobile-nav-link block px-3 py-2 rounded-md hover:bg-rosegold/20 hover:text-champagne">Customer Reviews</a>
+        <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-md hover:bg-rosegold/20 hover:text-champagne">Contact Us</a>
+        <a href="#booking" class="mobile-nav-link block px-3 py-2 mt-2 text-center bg-champagne text-burgundy font-bold rounded-full">Book Appointment</a>
+    </div>
+</header>
+
+<main>
+    <!-- Hero Section with 4-Image Slideshow -->
+    <section id="home" class="relative min-h-screen flex items-end justify-center overflow-hidden pt-20 pb-20 sm:pb-28">
+        <!-- Background Image Slides -->
+        <div id="hero-slider" class="absolute inset-0 z-0">
+            <div class="hero-slide active" style="background-image: url('/asstes/hero/hero-1.png');" data-index="1">
+                <div class="w-full h-full img-fallback"><span class="sr-only">Hero Slide 1</span></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('/asstes/hero/hero-2.png');" data-index="2">
+                <div class="w-full h-full img-fallback"><span class="sr-only">Hero Slide 2</span></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('/asstes/hero/hero-3.png');" data-index="3">
+                <div class="w-full h-full img-fallback"><span class="sr-only">Hero Slide 3</span></div>
+            </div>
+            <div class="hero-slide" style="background-image: url('/asstes/hero/hero-4.png');" data-index="4">
+                <div class="w-full h-full img-fallback"><span class="sr-only">Hero Slide 4</span></div>
+            </div>
+        </div>
+
+        <!-- Hero Content Overlay -->
+        <div class="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white py-8">
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-ivory mb-6 leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+                "Your Beauty, Our Art.<br class="hidden sm:inline"> Your Special Day, Our Passion."
+            </h1>
+
+            <!-- Hero CTAs -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#booking" class="w-full sm:w-auto px-8 py-4 bg-burgundy hover:bg-burgundy/90 text-ivory border border-champagne font-semibold rounded-full shadow-2xl transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-sparkles text-champagne"></i>
+                    <span>Book Your Makeover</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Menu Section -->
+    <section id="menu" class="py-20 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-burgundy uppercase tracking-widest text-xs font-bold">Comprehensive Beauty Solutions</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-darktext mt-2 mb-4">Our Beauty Services</h2>
+                <div class="w-16 h-1 bg-champagne mx-auto mb-4 rounded-full"></div>
+                <p class="text-subtext text-base">Discover personalised beauty services designed to enhance your natural beauty and create your perfect look for every occasion.</p>
+            </div>
+
+            <!-- Category Cards Grid -->
+            <div id="category-cards-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Makeup Category -->
+                <div onclick="navigateToGalleryCategory('bridal')" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-rosegold/20 flex flex-col cursor-pointer">
+                    <div class="relative h-56 overflow-hidden bg-burgundy">
+                        <img src="/asstes/categories/makeup.png" alt="Makeup Services Category" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full img-fallback flex flex-col items-center justify-center p-4 text-center">
+                            <i class="fa-solid fa-brush text-3xl mb-2"></i>
+                            <span class="font-serif font-bold">Makeup Services</span>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-darktext/80 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-xs font-semibold uppercase tracking-wider text-champagne">Primary Specialty</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-serif font-bold text-burgundy mb-2">Makeup Services</h3>
+                            <p class="text-subtext text-sm mb-6 leading-relaxed">From natural everyday elegance to glamorous bridal transformations, explore makeup looks tailored to your style and preferences.</p>
+                        </div>
+                        <button type="button" class="w-full py-3 bg-blush group-hover:bg-burgundy group-hover:text-white text-burgundy font-semibold rounded-xl border border-rosegold/30 transition-colors flex items-center justify-center gap-2">
+                            <span>Explore Makeup Gallery</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hairstyling Category -->
+                <div onclick="navigateToGalleryCategory('hairstyle')" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-rosegold/20 flex flex-col cursor-pointer">
+                    <div class="relative h-56 overflow-hidden bg-burgundy">
+                        <img src="/asstes/categories/hairstyle.png" alt="Hairstyling Services Category" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full img-fallback flex flex-col items-center justify-center p-4 text-center">
+                            <i class="fa-solid fa-scissors text-3xl mb-2"></i>
+                            <span class="font-serif font-bold">Hairstyling</span>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-darktext/80 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-xs font-semibold uppercase tracking-wider text-champagne">Bridal & Party</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-serif font-bold text-burgundy mb-2">Hairstyling</h3>
+                            <p class="text-subtext text-sm mb-6 leading-relaxed">Complete your look with elegant bridal hairstyles, party styling, traditional hairdos, and beautifully finished modern looks.</p>
+                        </div>
+                        <button type="button" class="w-full py-3 bg-blush group-hover:bg-burgundy group-hover:text-white text-burgundy font-semibold rounded-xl border border-rosegold/30 transition-colors flex items-center justify-center gap-2">
+                            <span>Explore Hairstyle Gallery</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Saree Draping Category -->
+                <div onclick="navigateToGalleryCategory('saree')" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-rosegold/20 flex flex-col cursor-pointer">
+                    <div class="relative h-56 overflow-hidden bg-burgundy">
+                        <img src="/asstes/categories/saree-draping.png" alt="Saree Draping Category" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full img-fallback flex flex-col items-center justify-center p-4 text-center">
+                            <i class="fa-solid fa-shirt text-3xl mb-2"></i>
+                            <span class="font-serif font-bold">Saree Draping</span>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-darktext/80 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-xs font-semibold uppercase tracking-wider text-champagne">Traditional Styles</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-serif font-bold text-burgundy mb-2">Saree Draping</h3>
+                            <p class="text-subtext text-sm mb-6 leading-relaxed">Look graceful and elegant with beautifully arranged saree draping styles for weddings, receptions, and celebrations.</p>
+                        </div>
+                        <button type="button" class="w-full py-3 bg-blush group-hover:bg-burgundy group-hover:text-white text-burgundy font-semibold rounded-xl border border-rosegold/30 transition-colors flex items-center justify-center gap-2">
+                            <span>Explore Saree Gallery</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Mehndi Category -->
+                <div onclick="navigateToGalleryCategory('mehndi')" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-rosegold/20 flex flex-col cursor-pointer">
+                    <div class="relative h-56 overflow-hidden bg-burgundy">
+                        <img src="/asstes/categories/mehndi.png" alt="Mehndi Art Category" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full img-fallback flex flex-col items-center justify-center p-4 text-center">
+                            <i class="fa-solid fa-hands text-3xl mb-2"></i>
+                            <span class="font-serif font-bold">Mehndi Art</span>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-darktext/80 via-transparent to-transparent"></div>
+                        <span class="absolute bottom-3 left-4 text-xs font-semibold uppercase tracking-wider text-champagne">Bridal & Festive</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-serif font-bold text-burgundy mb-2">Mehndi Art</h3>
+                            <p class="text-subtext text-sm mb-6 leading-relaxed">Add a traditional touch to your celebration with beautiful mehndi designs for bridal occasions, festivals, and special events.</p>
+                        </div>
+                        <button type="button" class="w-full py-3 bg-blush group-hover:bg-burgundy group-hover:text-white text-burgundy font-semibold rounded-xl border border-rosegold/30 transition-colors flex items-center justify-center gap-2">
+                            <span>Explore Mehndi Gallery</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Offers & Special Packages Section -->
+    <section id="offers" class="py-20 bg-blush/40 border-y border-rosegold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-burgundy uppercase tracking-widest text-xs font-bold">Exclusive Beauty Packages</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-darktext mt-2 mb-4">Special Beauty Offers</h2>
+                <div class="w-16 h-1 bg-champagne mx-auto mb-4 rounded-full"></div>
+                <p class="text-subtext text-base">Discover beauty services and personalised packages for your next special occasion at special introductory prices.</p>
+            </div>
+
+            <div id="offers-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Populated via JavaScript -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery Section (1:1.7 Portrait Ratio) -->
+    <section id="gallery" class="py-20 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-burgundy uppercase tracking-widest text-xs font-bold">Visual Showcase</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-darktext mt-2 mb-4">Our Beauty Gallery</h2>
+                <div class="w-16 h-1 bg-champagne mx-auto mb-4 rounded-full"></div>
+                <p class="text-subtext text-base">Explore makeup looks, bridal transformations, hairstyles, and beautiful moments created by Santhoshi Makeover.</p>
+            </div>
+
+            <!-- Gallery Category Filter Buttons -->
+            <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12">
+                <button onclick="filterGallery('all')" class="gallery-filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all bg-burgundy text-white shadow-md" data-filter="all">All Transformations</button>
+                <button onclick="filterGallery('bridal')" class="gallery-filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white text-subtext hover:bg-blush hover:text-burgundy border border-rosegold/20" data-filter="bridal">Makeup</button>
+                <button onclick="filterGallery('hairstyle')" class="gallery-filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white text-subtext hover:bg-blush hover:text-burgundy border border-rosegold/20" data-filter="hairstyle">Hairstyles</button>
+                <button onclick="filterGallery('saree')" class="gallery-filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white text-subtext hover:bg-blush hover:text-burgundy border border-rosegold/20" data-filter="saree">Saree Draping</button>
+                <button onclick="filterGallery('mehndi')" class="gallery-filter-btn px-4 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white text-subtext hover:bg-blush hover:text-burgundy border border-rosegold/20" data-filter="mehndi">Mehndi Art</button>
+            </div>
+
+            <!-- Gallery Grid (1:1.7 Ratio) -->
+            <div id="gallery-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+                <!-- Populated dynamically via JS -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Modal Lightbox for Gallery -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 bg-darktext/95 backdrop-blur-md hidden flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label="Image Preview">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white hover:text-champagne text-3xl focus:outline-none z-10" aria-label="Close Lightbox">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button onclick="prevLightboxImage()" class="absolute left-4 top-1/2 -translate-y-1/2 bg-burgundy/80 hover:bg-burgundy text-white w-10 h-10 rounded-full flex items-center justify-center z-10" aria-label="Previous Image">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="max-w-md w-full max-h-[85vh] flex flex-col items-center justify-center">
+            <div class="relative w-full aspect-portrait max-h-[75vh] overflow-hidden rounded-xl border-2 border-champagne bg-burgundy">
+                <img id="lightbox-img" src="" alt="" class="w-full h-full object-cover">
+                <div id="lightbox-fallback" class="w-full h-full img-fallback hidden flex flex-col items-center justify-center p-4 text-center text-white">
+                    <i class="fa-solid fa-image text-4xl mb-2"></i>
+                    <span id="lightbox-fallback-text" class="font-serif">Portfolio Image</span>
+                </div>
+            </div>
+            <p id="lightbox-caption" class="text-ivory font-serif text-center mt-4 text-base"></p>
+        </div>
+        <button onclick="nextLightboxImage()" class="absolute right-4 top-1/2 -translate-y-1/2 bg-burgundy/80 hover:bg-burgundy text-white w-10 h-10 rounded-full flex items-center justify-center z-10" aria-label="Next Image">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-blush/30 border-y border-rosegold/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                
+                <!-- Artist Portrait Image -->
+                <div class="relative">
+                    <div class="relative mx-auto max-w-md rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                        <img src="/asstes/artist.png" alt="Santhoshi - Professional Makeup Artist" class="w-full h-auto object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    </div>
+                    <div class="absolute -bottom-6 -right-2 sm:bottom-4 sm:right-4 bg-burgundy text-ivory p-6 rounded-2xl shadow-xl border border-champagne max-w-xs">
+                        <div class="text-3xl font-serif font-bold text-champagne mb-1">7+ Years</div>
+                        <div class="text-xs uppercase tracking-wider">Professional Bridal Experience in Madurai</div>
+                    </div>
+                </div>
+
+                <!-- Text Information -->
+                <div>
+                    <span class="text-burgundy uppercase tracking-widest text-xs font-bold">Meet Your Artist</span>
+                    <h2 class="text-3xl sm:text-4xl font-serif font-bold text-darktext mt-2 mb-6">Meet Santhoshi — Your Beauty Transformation Partner</h2>
+                    
+                    <p class="text-subtext text-base leading-relaxed mb-6">
+                        Santhoshi Makeover is a premier bridal makeup and beauty service business based in Madurai. With 7 years of hands-on professional makeup experience, Santhoshi focuses on creating personalized, luminous beauty looks tailored to each client's unique features, skin type, and event aesthetics.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center gap-3 p-3 bg-white rounded-xl shadow-sm border border-rosegold/10">
+                            <div class="w-10 h-10 rounded-full bg-blush flex items-center justify-center text-burgundy">
+                                <i class="fa-solid fa-crown"></i>
+                            </div>
+                            <span class="text-sm font-semibold text-darktext">Bridal Specialist</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-3 bg-white rounded-xl shadow-sm border border-rosegold/10">
+                            <div class="w-10 h-10 rounded-full bg-blush flex items-center justify-center text-burgundy">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <span class="text-sm font-semibold text-darktext">HD & Airbrush Options</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-3 bg-white rounded-xl shadow-sm border border-rosegold/10">
+                            <div class="w-10 h-10 rounded-full bg-blush flex items-center justify-center text-burgundy">
+                                <i class="fa-solid fa-scissors"></i>
+                            </div>
+                            <span class="text-sm font-semibold text-darktext">Hairstyling & Saree Draping</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-3 bg-white rounded-xl shadow-sm border border-rosegold/10">
+                            <div class="w-10 h-10 rounded-full bg-blush flex items-center justify-center text-burgundy">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <span class="text-sm font-semibold text-darktext">Personalized Consultations</span>
+                        </div>
+                    </div>
+
+                    <a href="#booking" class="inline-flex items-center gap-2 px-6 py-3 bg-burgundy hover:bg-burgundy/90 text-white font-semibold rounded-full shadow-md transition-all">
+                        <span>Schedule a Consultation</span>
+                        <i class="fa-solid fa-calendar-check text-champagne"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews / Google Reviews Section -->
+    <section id="reviews" class="py-20 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-burgundy uppercase tracking-widest text-xs font-bold">Client Testimonials</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-darktext mt-2 mb-4">What Our Clients Say</h2>
+                <div class="w-16 h-1 bg-champagne mx-auto mb-4 rounded-full"></div>
+                <p class="text-subtext text-base">Real stories and ratings from brides and clients transformed by Santhoshi Makeover in Madurai.</p>
+            </div>
+
+            <!-- Reviews Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-rosegold/20 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-champagne mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-subtext text-sm italic mb-6 leading-relaxed">
+                            "Superb result and gorgeous look 💖 at affordable prices …"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-blush">
+                        <div class="w-10 h-10 rounded-full bg-burgundy text-champagne font-bold flex items-center justify-center font-serif">
+                            D
+                        </div>
+                        <div>
+                            <h4 class="font-serif font-bold text-darktext text-sm">Daksha Monika</h4>
+                            <span class="text-xs text-subtext">Bridal Client, Madurai</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-rosegold/20 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-champagne mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-subtext text-sm italic mb-6 leading-relaxed">
+                            "I’m here to share my heartfelt review. The makeup, hairdo and saree draping were incredibly neat and perfect. The commitment, professional dedication and punctuality everything is worth mentioning.I loved the friendly approach, - catering to my specific needs, matching my expectations. Especially I am glad that my hairstyle turned out very well as in the reference picture. With basic care makeup stays long."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-blush">
+                        <div class="w-10 h-10 rounded-full bg-burgundy text-champagne font-bold flex items-center justify-center font-serif">
+                            B
+                        </div>
+                        <div>
+                            <h4 class="font-serif font-bold text-darktext text-sm">bhuvaneswari m s</h4>
+                            <span class="text-xs text-subtext">Bridal services, Makeup, Facials</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-rosegold/20 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-champagne mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-subtext text-sm italic mb-6 leading-relaxed">
+                            "I had an amazing experience with my makeup artist! She did such a wonderful job and exceeded all my expectations. From the very beginning, she was professional, attentive, and understood exactly the look I wanted. The makeup was flawless, long-lasting, and enhanced my features beautifully while still looking natural. I received so many compliments throughout the event, and I felt confident and beautiful all day."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-blush">
+                        <div class="w-10 h-10 rounded-full bg-burgundy text-champagne font-bold flex items-center justify-center font-serif">
+                            M
+                        </div>
+                        <div>
+                            <h4 class="font-serif font-bold text-darktext text-sm">madhu preetha</h4>
+                            <span class="text-xs text-subtext">Bridal & Mehndi Client</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Read Google Reviews Button -->
+            <div class="text-center">
+                <a href="https://g.page/r/CS3zhn7b4_VEEBM/review" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 px-8 py-4 bg-burgundy hover:bg-burgundy/90 text-ivory font-semibold rounded-full shadow-lg border border-champagne transition-all transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-google text-champagne text-lg"></i>
+                    <span>Review Us On Google</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-blush/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-burgundy uppercase tracking-widest text-xs font-bold">Get In Touch</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-darktext mt-2 mb-4">Visit Santhoshi Makeover</h2>
+                <div class="w-16 h-1 bg-champagne mx-auto mb-4 rounded-full"></div>
+                <p class="text-subtext text-base">Located in the heart of Madurai. Contact us for direct inquiries, salon visits, or home service availability.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <!-- Address Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-rosegold/20 flex flex-col items-center text-center">
+                    <div class="w-14 h-14 rounded-full bg-blush flex items-center justify-center text-burgundy text-2xl mb-4">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3 class="font-serif font-bold text-xl text-burgundy mb-2">Our Studio Address</h3>
+                    <p class="text-subtext text-sm mb-4 leading-relaxed">
+                        5 Street, Krishnapuram Colony,<br>Madurai, Tamil Nadu – 625002
+                    </p>
+                    <button onclick="copyAddress()" class="mt-auto px-4 py-2 bg-blush hover:bg-burgundy hover:text-white text-burgundy text-xs font-bold rounded-lg transition-colors flex items-center gap-2">
+                        <i class="fa-solid fa-copy"></i>
+                        <span id="copy-btn-text">Copy Full Address</span>
+                    </button>
+                </div>
+
+                <!-- Hours Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-rosegold/20 flex flex-col items-center text-center">
+                    <div class="w-14 h-14 rounded-full bg-blush flex items-center justify-center text-burgundy text-2xl mb-4">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3 class="font-serif font-bold text-xl text-burgundy mb-2">Working Hours</h3>
+                    <p class="text-subtext text-sm mb-1 font-semibold">Sunday to Saturday</p>
+                    <p class="text-burgundy text-lg font-bold mb-4">10:00 AM – 9:00 PM</p>
+                    <span class="mt-auto text-xs text-subtext bg-blush px-3 py-1.5 rounded-full font-medium">Appointments & Walk-ins Welcome</span>
+                </div>
+
+                <!-- Booking & Phone Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-rosegold/20 flex flex-col items-center text-center">
+                    <div class="w-14 h-14 rounded-full bg-blush flex items-center justify-center text-burgundy text-2xl mb-4">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h3 class="font-serif font-bold text-xl text-burgundy mb-2">Direct Contact</h3>
+                    <p class="text-subtext text-sm mb-2">For quick WhatsApp inquiries:</p>
+                    <a href="tel:+918925366616" class="text-xl font-bold text-burgundy hover:text-rosegold transition-colors mb-4 block">+91 89253 66616</a>
+                    <a href="https://wa.me/918925366616" target="_blank" rel="noopener noreferrer" class="mt-auto w-full py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl shadow transition-colors flex items-center justify-center gap-2 text-sm">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Interactive Direct Booking Section (Cart Removed) -->
+    <section id="booking" class="py-20 bg-ivory">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-burgundy uppercase tracking-widest text-xs font-bold">Seamless Booking Process</span>
+                <h2 class="text-3xl sm:text-4xl font-serif font-bold text-darktext mt-2 mb-4">Book Your Beauty Appointment</h2>
+                <div class="w-16 h-1 bg-champagne mx-auto mb-4 rounded-full"></div>
+                <p class="text-subtext text-base">Select your preferred services, fill in your details, and send your appointment request directly to us via WhatsApp.</p>
+            </div>
+
+            <!-- Booking Form -->
+            <div class="bg-white p-6 sm:p-10 rounded-2xl shadow-xl border border-rosegold/20">
+                <h3 class="text-2xl font-serif font-bold text-burgundy mb-6 pb-4 border-b border-blush flex items-center gap-2">
+                    <i class="fa-solid fa-calendar-check text-lg text-champagne"></i>
+                    <span>Appointment Details</span>
+                </h3>
+
+                <form id="booking-form" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                    
+                    <!-- Service Selection Checkboxes -->
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-darktext mb-2">Select Beauty Service(s) *</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="services-checkbox-grid">
+                            <label class="flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-burgundy cursor-pointer transition-colors">
+                                <input type="checkbox" name="selected-services" value="Complete Bridal Package" class="w-4 h-4 text-burgundy focus:ring-burgundy rounded">
+                                <span class="text-sm font-medium text-darktext">Complete Bridal Package <span class="text-burgundy font-bold text-xs"></span></span>
+                            </label>
+                            <label class="flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-burgundy cursor-pointer transition-colors">
+                                <input type="checkbox" name="selected-services" value="HD Makeup & Hairstyle Combo" class="w-4 h-4 text-burgundy focus:ring-burgundy rounded">
+                                <span class="text-sm font-medium text-darktext">HD Makeup & Hairstyle Combo <span class="text-burgundy font-bold text-xs"></span></span>
+                            </label>
+                            <label class="flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-burgundy cursor-pointer transition-colors">
+                                <input type="checkbox" name="selected-services" value="Makeup & Saree Draping Combo" class="w-4 h-4 text-burgundy focus:ring-burgundy rounded">
+                                <span class="text-sm font-medium text-darktext">Makeup & Saree Draping Combo <span class="text-burgundy font-bold text-xs"></span></span>
+                            </label>
+                            <label class="flex items-center gap-3 p-3 rounded-xl border border-gray-200 hover:border-burgundy cursor-pointer transition-colors">
+                                <input type="checkbox" name="selected-services" value="Get Enquiry" class="w-4 h-4 text-burgundy focus:ring-burgundy rounded">
+                                <span class="text-sm font-medium text-darktext">Get Enquiry</span>
+                            </label>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Personal Information -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div>
+                            <label for="cust-name" class="block text-xs font-bold uppercase text-darktext mb-1">Full Name *</label>
+                            <input type="text" id="cust-name" required placeholder="e.g. Priya Sharma" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-burgundy focus:ring-1 focus:ring-burgundy text-sm">
+                        </div>
+                        <div>
+                            <label for="cust-phone" class="block text-xs font-bold uppercase text-darktext mb-1">Phone Number *</label>
+                            <input type="tel" id="cust-phone" required placeholder="e.g. 9876543210" pattern="[0-9]{10}" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-burgundy focus:ring-1 focus:ring-burgundy text-sm">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="cust-service-type" class="block text-xs font-bold uppercase text-darktext mb-1">Service Location *</label>
+                        <select id="cust-service-type" onchange="toggleAddressField()" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-burgundy focus:ring-1 focus:ring-burgundy text-sm">
+                            <option value="salon">Studio Visit (At Santhoshi Makeover Studio)</option>
+                            <option value="home">Home Service (At Customer Address)</option>
+                        </select>
+                    </div>
+
+                    <div id="address-container" class="hidden">
+                        <label for="cust-address" class="block text-xs font-bold uppercase text-darktext mb-1">Full Home Service Address *</label>
+                        <textarea id="cust-address" rows="2" placeholder="House/Flat No, Street Name, Area in Madurai" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-burgundy focus:ring-1 focus:ring-burgundy text-sm"></textarea>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        <div>
+                            <label for="cust-date" class="block text-xs font-bold uppercase text-darktext mb-1">Appointment Date *</label>
+                            <input type="date" id="cust-date" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-burgundy focus:ring-1 focus:ring-burgundy text-sm">
+                        </div>
+                        <div>
+                            <label for="cust-time" class="block text-xs font-bold uppercase text-darktext mb-1">Preferred Time (10 AM - 9 PM) *</label>
+                            <input type="time" id="cust-time" min="10:00" max="21:00" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-burgundy focus:ring-1 focus:ring-burgundy text-sm">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="cust-instructions" class="block text-xs font-bold uppercase text-darktext mb-1">Special Instructions / Notes (Optional)</label>
+                        <textarea id="cust-instructions" rows="2" placeholder="Mention skin allergies, saree drape preferences, or function timing details..." class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-burgundy focus:ring-1 focus:ring-burgundy text-sm"></textarea>
+                    </div>
+
+                    <!-- Payment Option Selection -->
+                    <div class="pt-4 border-t border-blush">
+                        <h4 class="text-sm font-bold uppercase text-burgundy mb-3">Choose Payment Method *</h4>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <label class="payment-option border border-gray-200 rounded-xl p-4 flex items-center gap-3 cursor-pointer hover:border-burgundy transition-colors">
+                                <input type="radio" name="payment-method" value="cash" checked class="text-burgundy focus:ring-burgundy">
+                                <div>
+                                    <div class="font-bold text-sm text-darktext flex items-center gap-1.5"><i class="fa-solid fa-money-bill-wave text-emerald-600"></i> Cash Payment</div>
+                                    <div class="text-xs text-subtext">Pay at Studio / Cash on Delivery</div>
+                                </div>
+                            </label>
+                            <label class="payment-option border border-gray-200 rounded-xl p-4 flex items-center gap-3 cursor-pointer hover:border-burgundy transition-colors">
+                                <input type="radio" name="payment-method" value="upi" class="text-burgundy focus:ring-burgundy">
+                                <div>
+                                    <div class="font-bold text-sm text-darktext flex items-center gap-1.5"><i class="fa-solid fa-qrcode text-indigo-600"></i> UPI Transfer</div>
+                                    <div class="text-xs text-subtext">Google Pay / PhonePe / Paytm</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl shadow-lg transition-all text-base flex items-center justify-center gap-2 mt-6">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>Confirm & Send WhatsApp Request</span>
+                    </button>
+                    <p class="text-center text-xs text-subtext mt-2">This will prepare your booking message and open WhatsApp to send to +91 89253 66616.</p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-burgundy text-ivory border-t-4 border-champagne pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+            
+            <!-- Col 1: About & Logo -->
+            <div>
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-10 h-10 rounded-full border border-champagne overflow-hidden flex items-center justify-center bg-burgundy text-champagne">
+                        <img src="/asstes/logo.jpeg" alt="Santhoshi Makeover Logo" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <i class="fa-solid fa-crown text-lg hidden" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <span class="font-serif text-xl font-bold text-ivory block">Santhoshi</span>
+                        <span class="text-xs uppercase tracking-widest text-champagne block">Makeover</span>
+                    </div>
+                </div>
+                <p class="text-blush/80 text-xs leading-relaxed mb-6">
+                    Luxury bridal makeup artist in Madurai offering personalized makeup, HD transformations, modern hairstyles, traditional saree draping, and intricate mehndi art.
+                </p>
+                <div class="flex items-center space-x-3">
+                    <a href="https://www.instagram.com/nandhinikarthi17?utm_source=qr&obrf=eWVmc2k0MmhrbDRp" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" class="w-9 h-9 rounded-full bg-white/10 hover:bg-champagne hover:text-burgundy flex items-center justify-center transition-colors">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/19L1V6CZaA/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Page" class="w-9 h-9 rounded-full bg-white/10 hover:bg-champagne hover:text-burgundy flex items-center justify-center transition-colors">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/918925366616" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Contact" class="w-9 h-9 rounded-full bg-white/10 hover:bg-champagne hover:text-burgundy flex items-center justify-center transition-colors">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Col 2: Quick Links -->
+            <div>
+                <h4 class="font-serif text-lg font-bold text-champagne mb-4">Quick Navigation</h4>
+                <ul class="space-y-2 text-xs text-blush/80">
+                    <li><a href="#home" class="hover:text-champagne transition-colors">Home Page</a></li>
+                    <li><a href="#menu" class="hover:text-champagne transition-colors">Services Menu</a></li>
+                    <li><a href="#offers" class="hover:text-champagne transition-colors">Special Offers</a></li>
+                    <li><a href="#gallery" class="hover:text-champagne transition-colors">Portfolio Gallery</a></li>
+                    <li><a href="#about" class="hover:text-champagne transition-colors">About Santhoshi</a></li>
+                    <li><a href="#reviews" class="hover:text-champagne transition-colors">Customer Reviews</a></li>
+                    <li><a href="#booking" class="hover:text-champagne transition-colors">Book Appointment</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Services Offered -->
+            <div>
+                <h4 class="font-serif text-lg font-bold text-champagne mb-4">Beauty Services</h4>
+                <ul class="space-y-2 text-xs text-blush/80">
+                    <li><a href="#gallery" onclick="navigateToGalleryCategory('bridal')" class="hover:text-champagne transition-colors">Bridal & HD Makeup</a></li>
+                    <li><a href="#gallery" onclick="navigateToGalleryCategory('hd')" class="hover:text-champagne transition-colors">Glass Skin & Airbrush Makeup</a></li>
+                    <li><a href="#gallery" onclick="navigateToGalleryCategory('hairstyle')" class="hover:text-champagne transition-colors">Bridal Hairstyling</a></li>
+                    <li><a href="#gallery" onclick="navigateToGalleryCategory('saree')" class="hover:text-champagne transition-colors">Professional Saree Draping</a></li>
+                    <li><a href="#gallery" onclick="navigateToGalleryCategory('mehndi')" class="hover:text-champagne transition-colors">Bridal Mehndi Design</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Business Contact -->
+            <div>
+                <h4 class="font-serif text-lg font-bold text-champagne mb-4">Madurai Studio</h4>
+                <p class="text-xs text-blush/80 mb-2 leading-relaxed">
+                    <i class="fa-solid fa-location-dot text-champagne mr-1"></i> N0 8 Krishnapuram colony 5th Street, madurai–625014
+                </p>
+                <p class="text-xs text-blush/80 mb-2">
+                    <i class="fa-solid fa-clock text-champagne mr-1"></i> Mon-Sun: 10:00 AM - 9:00 PM
+                </p>
+                <p class="text-xs text-blush/80 mb-4">
+                    <i class="fa-solid fa-phone text-champagne mr-1"></i> +91 89253 66616
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Copyright Notice -->
+        <div class="border-t border-white/10 pt-6 text-center text-xs text-blush/60">
+            <p>&copy; <span id="copyright-year">2026</span> Santhoshi Makeover. All Rights Reserved. Bridal Makeup Artist in Madurai, Tamil Nadu.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Fixed Floating Bottom Bar for WhatsApp and Call (Bottom Right Corner) -->
+<div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3 items-end">
+    <!-- Direct Phone Call Floating Button -->
+    <a href="tel:+918925366616" aria-label="Call Santhoshi Makeover" class="group relative flex items-center justify-center w-12 h-12 bg-burgundy hover:bg-burgundy/90 text-champagne border-3 border-champagne rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110">
+        <i class="fa-solid fa-phone text-lg"></i>
+        <span class="absolute right-14 whitespace-nowrap bg-darktext text-ivory text-xs font-medium px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-md pointer-events-none">
+            Call +91 89253 66616
+        </span>
+    </a>
+
+    <!-- WhatsApp Chat Floating Button -->
+    <a href="https://wa.me/918925366616" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="group relative flex items-center justify-center w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        <span class="absolute right-16 whitespace-nowrap bg-darktext text-ivory text-xs font-medium px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-md pointer-events-none">
+            Chat on WhatsApp
+        </span>
+    </a>
+</div>
+
+<!-- JavaScript Data Logic & Application Script -->
+<script>
+    /* ==========================================================================
+       CONFIGURABLE BUSINESS DATA STRUCTURE & SERVICES DATA
+       ========================================================================== */
+    const BUSINESS_CONFIG = {
+        name: "Santhoshi Makeover",
+        phone: "+918925366616",
+        waNumber: "918925366616",
+        address: "5 Street, Krishnapuram Colony, Madurai, Tamil Nadu – 625002"
+    };
+
+    // Special Offers Packages
+    const SPECIAL_OFFERS = [
+        { id: "off-1", name: "Complete Bridal Package", origPrice: 18000, offerPrice: 14999, savings: "Save ₹3,001", desc: "Includes HD Pro Bridal Makeup, Bridal Hairstyling, Saree Draping & Hair Accessories setup.", img: "assets/offers/bridal-package.jpg" },
+        { id: "off-2", name: "HD Makeup & Hairstyle", origPrice: 9000, offerPrice: 6999, savings: "Save ₹2,001", desc: "HD Makeup with a choice of Reception or Traditional Hairstyle.", img: "assets/offers/hd-combo.jpg" },
+        
+    ];
+
+    // Gallery Portfolio Items
+    const GALLERY_ITEMS = [
+        { cat: "bridal", title: "Bridal Transformation", img: "/asstes/gallery/bridal-1.png" },
+        { cat: "hairstyle", title: "Hair Style", img: "/asstes/gallery/hair-5.png" },
+        { cat: "saree", title: "Saree Draping", img: "/asstes/gallery/saree-1.png" },
+        { cat: "hairstyle", title: "Hair Style", img: "/asstes/gallery/hair-2.png" },
+        { cat: "bridal", title: "Bridal Transformation", img: "/asstes/gallery/bridal-2.png" },
+        { cat: "hairstyle", title: "Hair Style", img: "/asstes/gallery/hair-1.png" },
+        { cat: "mehndi", title: "Bridal Mehndi", img: "/asstes/gallery/mehndi-2.png" },
+        { cat: "saree", title: "Saree Draping", img: "/asstes/gallery/saree-2.png" },
+        { cat: "hairstyle", title: "Hair Style", img: "/asstes/gallery/hair-3.png" },
+        { cat: "bridal", title: "Bridal Transformation", img: "/asstes/gallery/bridal-4.png" },
+        { cat: "hairstyle", title: "Hair Style", img: "/asstes/gallery/hair-4.png" },
+        { cat: "mehndi", title: "Bridal Mehndi", img: "/asstes/gallery/mehndi-1.png" },
+        { cat: "saree", title: "Saree Draping", img: "/asstes/gallery/saree-3.png" },
+        { cat: "mehndi", title: "Bridal Mehndi", img: "/asstes/gallery/mehndi-3.png" },
+        { cat: "bridal", title: "Bridal Transformation", img: "/asstes/gallery/bridal-3.png" },
+        { cat: "bridal", title: "Bridal Transformation", img: "/asstes/gallery/bridal-5.png" },
+        
+    ];
+
+    /* ==========================================================================
+       APPLICATION STATE
+       ========================================================================== */
+    let activeHeroIndex = 0;
+    let heroTimer = null;
+    let currentLightboxIndex = 0;
+    let currentGalleryFilter = 'all';
+
+    /* ==========================================================================
+       INITIALIZATION ON WINDOW LOAD
+       ========================================================================== */
+    window.addEventListener('DOMContentLoaded', () => {
+        initHeroSlider();
+        renderSpecialOffers();
+        renderGalleryGrid();
+        setMinDateLimit();
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.contains('hidden');
+            mobileMenu.classList.toggle('hidden');
+            document.getElementById('menu-icon-open').classList.toggle('hidden');
+            document.getElementById('menu-icon-close').classList.toggle('hidden');
+            menuBtn.setAttribute('aria-expanded', !isOpen);
+        });
+
+        // Close mobile menu when nav link is clicked
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                document.getElementById('menu-icon-open').classList.remove('hidden');
+                document.getElementById('menu-icon-close').classList.add('hidden');
+            });
+        });
+    });
+
+    /* Set minimum date picker to today */
+    function setMinDateLimit() {
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('cust-date').setAttribute('min', today);
+    }
+
+    /* ==========================================================================
+       HERO SLIDER LOGIC
+       ========================================================================== */
+    function initHeroSlider() {
+        const slides = document.querySelectorAll('.hero-slide');
+        if (!slides.length) return;
+
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (prefersReducedMotion) return;
+
+        heroTimer = setInterval(() => {
+            slides[activeHeroIndex].classList.remove('active');
+            activeHeroIndex = (activeHeroIndex + 1) % slides.length;
+            slides[activeHeroIndex].classList.add('active');
+        }, 3000);
+    }
+
+    /* ==========================================================================
+       CATEGORY CARD & FOOTER NAV TO GALLERY FILTER LOGIC
+       ========================================================================== */
+    function navigateToGalleryCategory(categoryKey) {
+        filterGallery(categoryKey);
+        const gallerySection = document.getElementById('gallery');
+        if (gallerySection) {
+            const headerOffset = 80;
+            const elementPosition = gallerySection.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    }
+
+    /* ==========================================================================
+       SPECIAL OFFERS RENDER
+       ========================================================================== */
+    function renderSpecialOffers() {
+        const grid = document.getElementById('offers-grid');
+        grid.innerHTML = '';
+
+        SPECIAL_OFFERS.forEach(offer => {
+            const cardHtml = `
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-champagne/40 flex flex-col justify-between p-6 hover:shadow-xl transition-all">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <span class="bg-champagne/20 text-burgundy text-xs font-bold px-3 py-1 rounded-full border border-champagne/30">${offer.savings}</span>
+                            <i class="fa-solid fa-gift text-burgundy text-xl"></i>
+                        </div>
+                        <h3 class="font-serif font-bold text-xl text-burgundy mb-2">${offer.name}</h3>
+                        <p class="text-xs text-subtext mb-6 leading-relaxed">${offer.desc}</p>
+                    </div>
+                    <div>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-2xl font-bold text-burgundy">₹${offer.offerPrice.toLocaleString('en-IN')}</span>
+                            <span class="text-xs text-subtext line-through">₹${offer.origPrice.toLocaleString('en-IN')}</span>
+                        </div>
+                        <button onclick="selectOfferAndScroll('${offer.name.replace(/'/g, "\\'")}')" class="w-full py-3 bg-champagne hover:bg-yellow-500 text-burgundy font-bold rounded-xl shadow transition-colors text-xs flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-calendar-check"></i>
+                            <span>Book This Offer</span>
+                        </button>
+                    </div>
+                </div>
+            `;
+            grid.insertAdjacentHTML('beforeend', cardHtml);
+        });
+    }
+
+    function selectOfferAndScroll(offerName) {
+        const checkboxes = document.querySelectorAll('input[name="selected-services"]');
+        checkboxes.forEach(cb => {
+            if (cb.value.includes(offerName)) {
+                cb.checked = true;
+            }
+        });
+        document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    /* ==========================================================================
+       PORTFOLIO GALLERY & LIGHTBOX
+       ========================================================================== */
+    function renderGalleryGrid(filter = 'all') {
+        const grid = document.getElementById('gallery-grid');
+        grid.innerHTML = '';
+
+        currentGalleryFilter = filter;
+        const filtered = filter === 'all' ? GALLERY_ITEMS : GALLERY_ITEMS.filter(item => item.cat === filter);
+
+        filtered.forEach((item, idx) => {
+            const cardHtml = `
+                <div onclick="openLightbox(${idx}, '${filter}')" class="group relative rounded-xl overflow-hidden aspect-portrait bg-burgundy cursor-pointer border border-rosegold/20 shadow-sm hover:shadow-lg transition-all">
+                    <img src="${item.img}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="w-full h-full img-fallback hidden flex-col items-center justify-center p-3 text-center text-white">
+                        <i class="fa-solid fa-camera-retro text-3xl mb-2 text-champagne"></i>
+                        <span class="font-serif text-xs">${item.title}</span>
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-darktext/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                        <p class="text-xs font-serif font-bold text-ivory">${item.title}</p>
+                    </div>
+                </div>
+            `;
+            grid.insertAdjacentHTML('beforeend', cardHtml);
+        });
+    }
+
+    function filterGallery(category) {
+        document.querySelectorAll('.gallery-filter-btn').forEach(btn => {
+            if (btn.dataset.filter === category) {
+                btn.classList.remove('bg-white', 'text-subtext');
+                btn.classList.add('bg-burgundy', 'text-white');
+            } else {
+                btn.classList.remove('bg-burgundy', 'text-white');
+                btn.classList.add('bg-white', 'text-subtext');
+            }
+        });
+        renderGalleryGrid(category);
+    }
+
+    function openLightbox(index, filter) {
+        const activeFilter = filter || currentGalleryFilter || 'all';
+        const filtered = activeFilter === 'all' ? GALLERY_ITEMS : GALLERY_ITEMS.filter(item => item.cat === activeFilter);
+        currentLightboxIndex = index;
+        const item = filtered[index];
+        if (!item) return;
+
+        const modal = document.getElementById('lightbox-modal');
+        const img = document.getElementById('lightbox-img');
+        const fallback = document.getElementById('lightbox-fallback');
+        const caption = document.getElementById('lightbox-caption');
+
+        img.style.display = 'block';
+        fallback.classList.add('hidden');
+
+        img.src = item.img;
+        img.onerror = () => {
+            img.style.display = 'none';
+            fallback.classList.remove('hidden');
+            document.getElementById('lightbox-fallback-text').textContent = item.title;
+        };
+
+        caption.textContent = item.title;
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        document.getElementById('lightbox-modal').classList.add('hidden');
+        document.body.style.overflow = 'auto';
+    }
+
+    function prevLightboxImage() {
+        const filtered = currentGalleryFilter === 'all' ? GALLERY_ITEMS : GALLERY_ITEMS.filter(item => item.cat === currentGalleryFilter);
+        if (currentLightboxIndex > 0) {
+            openLightbox(currentLightboxIndex - 1, currentGalleryFilter);
+        } else {
+            openLightbox(filtered.length - 1, currentGalleryFilter);
+        }
+    }
+
+    function nextLightboxImage() {
+        const filtered = currentGalleryFilter === 'all' ? GALLERY_ITEMS : GALLERY_ITEMS.filter(item => item.cat === currentGalleryFilter);
+        if (currentLightboxIndex < filtered.length - 1) {
+            openLightbox(currentLightboxIndex + 1, currentGalleryFilter);
+        } else {
+            openLightbox(0, currentGalleryFilter);
+        }
+    }
+
+    // Keyboard navigation for Lightbox
+    document.addEventListener('keydown', (e) => {
+        const modal = document.getElementById('lightbox-modal');
+        if (!modal.classList.contains('hidden')) {
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowLeft') prevLightboxImage();
+            if (e.key === 'ArrowRight') nextLightboxImage();
+        }
+    });
+
+    /* Toggle Address Field on Home Service Selection */
+    function toggleAddressField() {
+        const serviceType = document.getElementById('cust-service-type').value;
+        const addrContainer = document.getElementById('address-container');
+        const addrInput = document.getElementById('cust-address');
+
+        if (serviceType === 'home') {
+            addrContainer.classList.remove('hidden');
+            addrInput.setAttribute('required', 'required');
+        } else {
+            addrContainer.classList.add('hidden');
+            addrInput.removeAttribute('required');
+        }
+    }
+
+    /* ==========================================================================
+       FORM SUBMISSION & WHATSAPP MESSAGE GENERATION
+       ========================================================================== */
+    function handleFormSubmit(e) {
+        e.preventDefault();
+
+        const selectedCheckboxes = document.querySelectorAll('input[name="selected-services"]:checked');
+        if (selectedCheckboxes.length === 0) {
+            alert("Please select at least one beauty service for your booking.");
+            return;
+        }
+
+        const selectedServices = Array.from(selectedCheckboxes).map(cb => cb.value).join(', ');
+        const name = document.getElementById('cust-name').value.trim();
+        const phone = document.getElementById('cust-phone').value.trim();
+        const serviceType = document.getElementById('cust-service-type').value;
+        const address = serviceType === 'home' ? document.getElementById('cust-address').value.trim() : "Studio Visit (Santhoshi Makeover Studio, Madurai)";
+        const date = document.getElementById('cust-date').value;
+        const time = document.getElementById('cust-time').value;
+        const instructions = document.getElementById('cust-instructions').value.trim() || "None";
+        const paymentMethod = document.querySelector('input[name="payment-method"]:checked').value;
+
+        // Format WhatsApp Message Text
+        let message = `SANTHOSHI MAKEOVER — NEW BOOKING REQUEST\n\n`;
+        message += `Customer Name: ${name}\n`;
+        message += `Customer Phone: ${phone}\n`;
+        message += `Service Location: ${address}\n`;
+        message += `Appointment Date: ${date}\n`;
+        message += `Preferred Time: ${time}\n\n`;
+        message += `Selected Services:\n- ${selectedServices}\n\n`;
+        message += `Payment Method: ${paymentMethod === 'cash' ? 'Cash Payment / Pay at Studio' : 'UPI Transfer'}\n`;
+        message += `Special Instructions: ${instructions}\n\n`;
+        message += `Please check availability and confirm this booking request.`;
+
+        const encodedMsg = encodeURIComponent(message);
+        const waUrl = `https://wa.me/${BUSINESS_CONFIG.waNumber}?text=${encodedMsg}`;
+
+        window.open(waUrl, '_blank');
+    }
+
+    /* Copy Address Utility */
+    function copyAddress() {
+        const fullAddress = BUSINESS_CONFIG.address;
+        const textElem = document.getElementById('copy-btn-text');
+        
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(fullAddress).then(() => {
+                textElem.textContent = "Address Copied!";
+                setTimeout(() => textElem.textContent = "Copy Full Address", 3000);
+            });
+        } else {
+            const textarea = document.createElement('textarea');
+            textarea.value = fullAddress;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            textElem.textContent = "Address Copied!";
+            setTimeout(() => textElem.textContent = "Copy Full Address", 3000);
+        }
+    }
+</script>
+
+</body>
+</html>
